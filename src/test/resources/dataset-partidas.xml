@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <!-- CARTAS -->
+    <cartas id="1" palo="OROS" indice="1"/>
+    <cartas id="2" palo="COPAS" indice="3"/>
+    <cartas id="3" palo="ESPADAS" indice="7"/>
+    <cartas id="4" palo="BASTOS" indice="10"/>
+
+    <!-- PARTIDAS -->
+    <partidas id="p-db-1" fecha="2025-11-25" jugador1="Alice" jugador2="Bob"/>
+    <partidas id="p-db-2" fecha="2025-11-26" jugador1="Charlie" jugador2="Dave"/>
+    <partidas id="p-db-3" fecha="2025-11-27" jugador1="Eve" jugador2="Frank"/>
+    <partidas id="p-db-4" fecha="2025-11-28" jugador1="Bob" jugador2="Heidi"/>
+    <partidas id="p-db-5" fecha="2025-11-29" jugador1="Ivan" jugador2="Judy"/>
+    <partidas id="p-db-6" fecha="2025-11-30" jugador1="Mallory" jugador2="Niaj"/>
+    <partidas id="p-db-7" fecha="2025-12-01" jugador1="Alice" jugador2="Charlie"/>
+    <partidas id="p-db-8" fecha="2025-12-02" jugador1="Dave" jugador2="Bob"/>
+    <partidas id="p-db-9" fecha="2025-12-03" jugador1="Bob" jugador2="Grace"/>
+    <partidas id="p-db-10" fecha="2025-12-04" jugador1="Heidi" jugador2="Frank"/>
+    <partidas id="p-db-11" fecha="2025-12-05" jugador1="Ivan" jugador2="Mallory"/>
+
+    <!-- RESUMENES -->
+    <resumenes id="res-p-db-1" partida_id="p-db-1" fecha="2025-11-25" jugador1="Alice" jugador2="Bob"
+               puntos_jugador1="0" puntos_jugador2="5"
+               escobas_jugador1="0" escobas_jugador2="1"
+               oros_jugador1="3" oros_jugador2="7"
+               sietes_jugador1="1" sietes_jugador2="3"
+               guindis_jugador1="false" guindis_jugador2="true"
+               cartas_capturadas_jugador1="13" cartas_capturadas_jugador2="27"/>
+
+    <resumenes id="res-p-db-2" partida_id="p-db-2" fecha="2025-11-26" jugador1="Charlie" jugador2="Dave" 
+                puntos_jugador1="15" puntos_jugador2="12" 
+                escobas_jugador1="2" escobas_jugador2="0" 
+                oros_jugador1="6" oros_jugador2="4" 
+                sietes_jugador1="3" sietes_jugador2="1" 
+                guindis_jugador1="true" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="22" cartas_capturadas_jugador2="18"/>
+
+    <resumenes id="res-p-db-3" partida_id="p-db-3" fecha="2025-11-27" jugador1="Eve" jugador2="Frank"
+                puntos_jugador1="8" puntos_jugador2="15" 
+                escobas_jugador1="1" escobas_jugador2="3" 
+                oros_jugador1="2" oros_jugador2="8" 
+                sietes_jugador1="0" sietes_jugador2="4" 
+                guindis_jugador1="false" guindis_jugador2="true" 
+                cartas_capturadas_jugador1="15" cartas_capturadas_jugador2="25"/>
+    
+    <resumenes id="res-p-db-4" partida_id="p-db-4" fecha="2025-11-28" jugador1="Bob" jugador2="Heidi" 
+                puntos_jugador1="11" puntos_jugador2="11" 
+                escobas_jugador1="1" escobas_jugador2="1" 
+                oros_jugador1="5" oros_jugador2="5" 
+                sietes_jugador1="2" sietes_jugador2="2" 
+                guindis_jugador1="false" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="20" cartas_capturadas_jugador2="20"/>
+    
+    <resumenes id="res-p-db-5" partida_id="p-db-5" fecha="2025-11-29" jugador1="Ivan" jugador2="Judy" 
+                puntos_jugador1="16" puntos_jugador2="4" 
+                escobas_jugador1="4" escobas_jugador2="0" 
+                oros_jugador1="9" oros_jugador2="1" 
+                sietes_jugador1="4" sietes_jugador2="0" 
+                guindis_jugador1="true" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="30" cartas_capturadas_jugador2="10"/>
+    
+    <resumenes id="res-p-db-6" partida_id="p-db-6" fecha="2025-11-30" jugador1="Mallory" jugador2="Niaj" 
+                puntos_jugador1="7" puntos_jugador2="15" 
+                escobas_jugador1="0" escobas_jugador2="2" 
+                oros_jugador1="4" oros_jugador2="6" 
+                sietes_jugador1="1" sietes_jugador2="3" 
+                guindis_jugador1="false" guindis_jugador2="true" 
+                cartas_capturadas_jugador1="14" cartas_capturadas_jugador2="26"/>
+    
+    <resumenes id="res-p-db-7" partida_id="p-db-7" fecha="2025-12-01" jugador1="Alice" jugador2="Charlie" 
+                puntos_jugador1="12" puntos_jugador2="10" 
+                escobas_jugador1="1" escobas_jugador2="1" 
+                oros_jugador1="7" oros_jugador2="3" 
+                sietes_jugador1="3" sietes_jugador2="1" 
+                guindis_jugador1="false" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="21" cartas_capturadas_jugador2="19"/>
+    
+    <resumenes id="res-p-db-8" partida_id="p-db-8" fecha="2025-12-02" jugador1="Dave" jugador2="Bob" 
+                puntos_jugador1="5" puntos_jugador2="18" 
+                escobas_jugador1="0" escobas_jugador2="4" 
+                oros_jugador1="2" oros_jugador2="8" 
+                sietes_jugador1="0" sietes_jugador2="4" 
+                guindis_jugador1="false" guindis_jugador2="true" 
+                cartas_capturadas_jugador1="12" cartas_capturadas_jugador2="28"/>
+    
+    <resumenes id="res-p-db-9" partida_id="p-db-9" fecha="2025-12-03" jugador1="Bob" jugador2="Grace" 
+                puntos_jugador1="14" puntos_jugador2="9" 
+                escobas_jugador1="2" escobas_jugador2="0" 
+                oros_jugador1="6" oros_jugador2="4" 
+                sietes_jugador1="3" sietes_jugador2="1" 
+                guindis_jugador1="true" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="24" cartas_capturadas_jugador2="16"/>
+
+    <resumenes id="res-p-db-10" partida_id="p-db-10" fecha="2025-12-04" jugador1="Heidi" jugador2="Frank" 
+                puntos_jugador1="10" puntos_jugador2="13" 
+                escobas_jugador1="1" escobas_jugador2="2" 
+                oros_jugador1="5" oros_jugador2="5" 
+                sietes_jugador1="2" sietes_jugador2="2" 
+                guindis_jugador1="false" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="20" cartas_capturadas_jugador2="20"/>
+    
+    <resumenes id="res-p-db-11" partida_id="p-db-11" fecha="2025-12-05" jugador1="Ivan" jugador2="Mallory" 
+                puntos_jugador1="15" puntos_jugador2="8" 
+                escobas_jugador1="3" escobas_jugador2="1" 
+                oros_jugador1="8" oros_jugador2="2" 
+                sietes_jugador1="4" sietes_jugador2="0" 
+                guindis_jugador1="true" guindis_jugador2="false" 
+                cartas_capturadas_jugador1="27" cartas_capturadas_jugador2="13"/>
+
+    <!-- MESA INICIAL (tabla partida_mesa) -->
+    <partida_mesa partida_id="p-db-1" carta_id="1"/>
+
+    <!-- MANOS -->
+    <manos id="100" numero_ronda="1" nombre_jugador="Alice" partida_id="p-db-1"/>
+    <manos id="101" numero_ronda="1" nombre_jugador="Bob" partida_id="p-db-1"/>
+
+    <!-- RELACIÓN MANO-CARTAS -->
+    <mano_cartas mano_id="100" carta_id="2"/>
+    <mano_cartas mano_id="101" carta_id="3"/>
+
+    <!-- RONDAS -->
+    <rondas id="200" numero="1" partida_id="p-db-1"/>
+
+    <!-- RONDA_MESA -->
+    <ronda_mesa ronda_id="200" carta_id="1"/>
+
+    <!-- JUGADAS -->
+    <jugadas id="400" carta_juega_id="2"/>
+
+    <!-- JUGADA_CAPTURA -->
+    <jugada_captura jugada_id="400" carta_id="3"/>
+
+    <!-- JUGADA_MESA_RESULTANTE -->
+    <jugada_mesa_resultante jugada_id="400" carta_id="4"/>
+
+    <!-- TURNOS -->
+    <turnos id="300" numero="1" jugada_id="400" ronda_id="200"/>
+</dataset>
